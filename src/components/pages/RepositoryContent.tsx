@@ -102,7 +102,8 @@ function RepositoryContent() {
                 >
                   <div className="flex items-center w-full justify-between">
                     <div className="flex items-center gap-2 underline">
-                      <GrBook className="text-gray-700" /> {item.name}
+                      <GrBook className="text-gray-700" />{" "}
+                      {item.name.slice(0, 25)}
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <h2 className="text-gray-700">Last update:</h2>{" "}
