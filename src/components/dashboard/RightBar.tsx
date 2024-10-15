@@ -47,6 +47,11 @@ function RightBar() {
               }
             );
 
+            const formattedRepositoryName =
+              item.repo.name && item.repo.name.length > 0
+                ? item.repo.name.substring(item.repo.name.indexOf("/") + 1)
+                : "Unkown Repo";
+
             return (
               <div
                 key={index}
@@ -66,10 +71,8 @@ function RightBar() {
                 </div>
 
                 <div className="flex items-center justify-start gap-1 mt-2 text-gray-600 ml-2">
-                  <LuBookMarked className="text-xl text-gray-400" />
-                  <h2 className="text-md">
-                    {item.repo.name || "Unknown Repo"}
-                  </h2>
+                  <LuBookMarked className="text-lg text-gray-400" />
+                  <h2 className="text-sm">{formattedRepositoryName}</h2>
                 </div>
                 <div className="mt-3 ml-2">
                   {item.payload.commits && item.payload.commits.length > 0 ? (
