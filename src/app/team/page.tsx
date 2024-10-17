@@ -25,7 +25,7 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-20">
                 <TeamCard
-                  username="@spadeydev"
+                  username="@chefHarun"
                   color="#FF0000"
                   rolename="Software Developer"
                   image="/profile1.png"
