@@ -25,25 +25,25 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-20">
                 <TeamCard
-                  username="@chefHarun"
+                  username="@Harun"
                   color="#FF0000"
                   rolename="Software Developer"
                   image="/profile1.png"
                 />
                 <TeamCard
-                  username="@chefberke"
+                  username="@Berke"
                   color="#1B00A9"
                   rolename="Software Developer"
                   image="/profile2.png"
                 />
                 <TeamCard
-                  username="@eylularts"
+                  username="@hiring"
                   color="#FFCD1B"
                   rolename="UI/UX Designer"
                   image="/profile3.png"
                 />
                 <TeamCard
-                  username="@afratech"
+                  username="@hiring"
                   color="#8276FF"
                   rolename="Bug Tester"
                   image="/profile4.png"
