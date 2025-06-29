@@ -40,7 +40,7 @@ function Nav() {
           <Link href={"https://git-cow.gitbook.io/git.cow-docs"}> Docs</Link>
         </li>
         <li className="hover:text-pink-500 transition-all cursor-pointer">
-          Company
+          <Link href={"/about"}>About</Link>
         </li>
       </ul>
       <button
